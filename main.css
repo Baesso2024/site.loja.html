@@ -9,11 +9,10 @@ header{
     font-optical-sizing: auto;
     font-weight:bold;
     font-style:normal;
-}
-
-header{
-    padding: 16px 0;
+    display:flex;
+    padding: 12px 0;
     background-color:#b8860b;
+
 }
 
 header .container{
@@ -39,7 +38,6 @@ header nav li {
     color:#33302e;
     font-weight: bolder;
     padding: 16px;
-    margin-left: 250px;
     align-items: center;
 }
 
