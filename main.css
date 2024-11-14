@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style:normal;
+}
+
+header{
+    padding: 16px 0;
+    background-color:#b8860b;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1,
+header a{
+    text-decoration: none;
+    color: #33302e;
+    font-weight: bold;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.products h2{
+    color:#33302e;
+    font-weight: bolder;
+    padding: 16px;
+    margin-left: 250px;
+    align-items: center;
+}
+
+body h2,
+body h3,
+li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color:#33302e
+}
+
+body{
+    background-color:#ffe4c4;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+section .container{
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.articles h3,
+li{
+    color:#30332e;
+    font-weight: bold;
+}
+
+.articles li {
+    padding: 8px;
+    list-style: none; 
+}
+
+.articles form input{
+    padding: 2px;
+    width: 16%;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:antiquewhite;
+}
+
+.about h2,
+p{
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    font-style: bolder;
+}
+
+.about img{
+    height: 500px;
+    width: 100%;
+}
+
+.about h2,
+.about p{
+    color:#33302e;
+    padding: 8px 8px;
+}
+
+#contact .container{
+    align-items: center;
+    display: flex;
+}
+
+#contact button{
+    display: inline;
+    width: 80px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+    height: 80px;
+}
+
+.social-links img{
+    height: 200px;
+}
+
+.social-links h3{
+    padding: 8px;
+    margin-left: 150px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+button{
+    background-color:#b8860b;
+    color:#33302e;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px 1px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
